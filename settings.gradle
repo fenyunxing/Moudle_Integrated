@@ -1,0 +1,2 @@
+include ':app', ':blesdk', ':buletooth_module', ':voice_ctroller_module'
+rootProject.name='Module_Integrated'

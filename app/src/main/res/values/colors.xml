@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="main_layout_backgroud_color">#D5D5D5</color>
+    <color name="top_title_text_color">#090909</color>  //顶部标题文本颜色
+</resources>

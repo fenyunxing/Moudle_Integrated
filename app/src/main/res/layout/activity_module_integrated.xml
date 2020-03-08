@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/main_layout_backgroud_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <TextView
+        android:id="@+id/tv_top_title_text"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="欢迎使用蓝牙语音遥控"
+        android:textColor="@color/top_title_text_color"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--蓝牙跳转按钮-->
+    <Button
+        android:id="@+id/btn_buletooth_shift"
+        android:text="蓝牙跳转"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--说话跳转-->
+    <Button
+        android:id="@+id/btn_voice_ctroller_shift"
+        android:layout_margin="5dp"
+        android:text="说话跳转"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--显示文本-->
+    <TextView
+        android:id="@+id/tv_display_text"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
